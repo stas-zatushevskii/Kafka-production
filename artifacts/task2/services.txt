@@ -1,0 +1,6 @@
+NAME              IMAGE                                   COMMAND                  SERVICE           CREATED          STATUS          PORTS
+kafka-1           confluentinc/cp-kafka:7.7.1             "/etc/confluent/dock…"   kafka-1           21 seconds ago   Up 20 seconds   0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp
+kafka-2           confluentinc/cp-kafka:7.7.1             "/etc/confluent/dock…"   kafka-2           21 seconds ago   Up 20 seconds   0.0.0.0:9093->9093/tcp, [::]:9093->9093/tcp
+kafka-3           confluentinc/cp-kafka:7.7.1             "/etc/confluent/dock…"   kafka-3           21 seconds ago   Up 20 seconds   0.0.0.0:9094->9094/tcp, [::]:9094->9094/tcp
+nifi              apache/nifi:1.28.0                      "../scripts/start.sh"    nifi              21 seconds ago   Up 20 seconds   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+schema-registry   confluentinc/cp-schema-registry:7.7.1   "/etc/confluent/dock…"   schema-registry   21 seconds ago   Up 20 seconds   0.0.0.0:8081->8081/tcp, [::]:8081->8081/tcp

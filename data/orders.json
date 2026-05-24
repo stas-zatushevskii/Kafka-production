@@ -1,0 +1,27 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "customer_id": "CUS-001",
+    "amount": 149.95,
+    "currency": "USD",
+    "created_at": "2026-05-24T10:00:00Z",
+    "source": "checkout"
+  },
+  {
+    "order_id": "ORD-1002",
+    "customer_id": "CUS-002",
+    "amount": 89.50,
+    "currency": "USD",
+    "created_at": "2026-05-24T10:02:00Z",
+    "source": "mobile-app"
+  },
+  {
+    "order_id": "ORD-1003",
+    "customer_id": "CUS-003",
+    "amount": 205.10,
+    "currency": "USD",
+    "created_at": "2026-05-24T10:04:00Z",
+    "source": "support-desk"
+  }
+]
+

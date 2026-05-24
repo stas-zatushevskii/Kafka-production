@@ -1,0 +1,23 @@
+	org.apache.nifi.processors.standard.LogAttribute
+	org.apache.nifi.processors.kafka.pubsub.PublishKafka_2_6
+	org.apache.nifi.processors.standard.GenerateFlowFile
+2026-05-24 19:46:07,921 INFO [NiFi Web Server-22] o.a.nifi.groups.StandardProcessGroup GenerateFlowFile[id=5b85fba5-019e-1000-f4d6-69dcc60534ed] added to StandardProcessGroup[identifier=5b85fb60-019e-1000-eed9-1feeda16deae,name=KafkaIntegrationFlow]
+2026-05-24 19:46:07,967 INFO [NiFi Web Server-32] o.a.nifi.groups.StandardProcessGroup LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329] added to StandardProcessGroup[identifier=5b85fb60-019e-1000-eed9-1feeda16deae,name=KafkaIntegrationFlow]
+2026-05-24 19:46:07,992 INFO [NiFi Web Server-29] o.a.nifi.groups.StandardProcessGroup PublishKafka_2_6[id=5b85fbf7-019e-1000-7194-1572cde6c437] added to StandardProcessGroup[identifier=5b85fb60-019e-1000-eed9-1feeda16deae,name=KafkaIntegrationFlow]
+2026-05-24 19:46:08,097 INFO [NiFi Web Server-28] o.a.n.c.s.StandardProcessScheduler Starting PublishKafka_2_6[id=5b85fbf7-019e-1000-7194-1572cde6c437]
+2026-05-24 19:46:08,097 INFO [NiFi Web Server-28] o.a.n.controller.StandardProcessorNode Starting PublishKafka_2_6[id=5b85fbf7-019e-1000-7194-1572cde6c437]
+2026-05-24 19:46:08,102 INFO [Timer-Driven Process Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled PublishKafka_2_6[id=5b85fbf7-019e-1000-7194-1572cde6c437] to run with 1 threads
+2026-05-24 19:46:08,131 INFO [NiFi Web Server-30] o.a.n.c.s.StandardProcessScheduler Starting LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329]
+2026-05-24 19:46:08,131 INFO [NiFi Web Server-30] o.a.n.controller.StandardProcessorNode Starting LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329]
+2026-05-24 19:46:08,132 INFO [Timer-Driven Process Thread-3] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329] to run with 1 threads
+2026-05-24 19:46:08,160 INFO [NiFi Web Server-31] o.a.n.c.s.StandardProcessScheduler Starting GenerateFlowFile[id=5b85fba5-019e-1000-f4d6-69dcc60534ed]
+2026-05-24 19:46:08,160 INFO [NiFi Web Server-31] o.a.n.controller.StandardProcessorNode Starting GenerateFlowFile[id=5b85fba5-019e-1000-f4d6-69dcc60534ed]
+2026-05-24 19:46:08,160 INFO [Timer-Driven Process Thread-5] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled GenerateFlowFile[id=5b85fba5-019e-1000-f4d6-69dcc60534ed] to run with 1 threads
+2026-05-24 19:46:08,215 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329] logging for flow file StandardFlowFileRecord[uuid=0ca8c9e5-18db-4f2f-a2a9-872811e24900,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1779651968174-1, container=default, section=1], offset=0, length=56],offset=0,name=0ca8c9e5-18db-4f2f-a2a9-872811e24900,size=56]
+{"source":"nifi","event":"inventory_sync","status":"ok"}
+2026-05-24 19:46:13,203 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329] logging for flow file StandardFlowFileRecord[uuid=7a8bb85e-704f-4af5-af5d-5bd69849a894,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1779651968174-1, container=default, section=1], offset=56, length=56],offset=0,name=7a8bb85e-704f-4af5-af5d-5bd69849a894,size=56]
+{"source":"nifi","event":"inventory_sync","status":"ok"}
+2026-05-24 19:46:18,217 INFO [Timer-Driven Process Thread-6] o.a.n.processors.standard.LogAttribute LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329] logging for flow file StandardFlowFileRecord[uuid=8a401b13-a163-4713-b709-1c86c772f92e,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1779651968174-1, container=default, section=1], offset=112, length=56],offset=0,name=8a401b13-a163-4713-b709-1c86c772f92e,size=56]
+{"source":"nifi","event":"inventory_sync","status":"ok"}
+2026-05-24 19:46:23,225 INFO [Timer-Driven Process Thread-7] o.a.n.processors.standard.LogAttribute LogAttribute[id=5b85fbdf-019e-1000-de07-ceb4cafd6329] logging for flow file StandardFlowFileRecord[uuid=1bea6c03-22db-4006-b290-1cc9f1bc8318,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1779651968174-1, container=default, section=1], offset=168, length=56],offset=0,name=1bea6c03-22db-4006-b290-1cc9f1bc8318,size=56]
+{"source":"nifi","event":"inventory_sync","status":"ok"}
